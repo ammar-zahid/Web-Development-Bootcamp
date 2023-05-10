@@ -1,0 +1,14 @@
+h2 {
+    color: red;
+    background-color: burlywood;
+}
+
+p {
+    color: #ff54ff;
+    border: solid;
+    border-color: blue;
+}
+
+h6 {
+    color: rgb(33, 345, 764);
+}
