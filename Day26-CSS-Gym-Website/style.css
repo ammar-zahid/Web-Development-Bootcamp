@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background: url(./images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'poppins', sans-serif;
+}
+
+.left-section {
+    color: white;
+    position: absolute;
+}
+
+.mid-section {
+    color: white;
+    height: 66px;
+    display: block;
+    width: 48%;
+    margin: auto;
+    overflow: auto;
+    margin-top: 30px;
+}
+
+.right-section {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 0px;
+    margin-top: 42px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding: 5px 10px;
+}
+
+.navbar ul li a:hover {
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navbar ul li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+
+.btn button {
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    margin-left: 10px;
+}
+
+.btn button:hover {
+    transform: scale(1.1);
+}
+
+.btn button a {
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.registeration-form {
+    border: solid red;
+    border-radius: 15px;
+    width: 350px;
+    height: 400px;
+    position: relative;
+    top: 80px;
+    left: 80px;
+}
+
+.registeration-form h3 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.registeration-form label {
+    color: white;
+    margin-left: 40px;
+}
+.registeration-form input {
+    border-radius: 10px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.form-btn-div {
+    text-align: center;
+}
+.registeration-form .form-btns {
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 8px 10px 8px 10px;
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+}
+
+.registeration-form .form-btns:hover {
+    transform: scale(1.1);   
+}
