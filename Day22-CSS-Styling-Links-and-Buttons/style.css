@@ -1,0 +1,23 @@
+#google-link {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#google-link:hover {
+    color: green;
+}
+
+#youtube-btn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: red;
+}
+
+#youtube-btn a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+}
