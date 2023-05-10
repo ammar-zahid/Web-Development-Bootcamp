@@ -1,0 +1,15 @@
+.box1 {
+    border: 1px solid;
+    width: 250px;
+    height: 250px;
+    background-color: lightblue;
+    position: static;
+    top: 40px;
+}
+
+.box2 {
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+}
