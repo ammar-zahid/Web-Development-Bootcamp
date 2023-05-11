@@ -1,0 +1,23 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 50px;
+}
+
+.container ul li {
+    color: red;
+    background-color: cyan;
+}
+
+.container .list-items .list-item3 {
+    list-style: none;
+    color: black;
+}
+
+.container > p {
+    color: blue;
+}
+
+/* other css selectors are not very much used by devleopers */
