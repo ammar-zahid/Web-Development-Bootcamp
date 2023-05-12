@@ -128,7 +128,7 @@ section.hero-section div.hero-content button.btn a {
 }
 
 section.hero-section div.hero-content button.btn {
-    border: 1px solid var(--borders-color);
+    border: 2px solid var(--borders-color);
     border-radius: 5px;
     padding: 18px 40px;
     background-color: transparent;
@@ -170,7 +170,8 @@ section.about-section div.about-content div.content-area h1.main-heading {
     color: white;
     font-size: 48px;
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
+    margin: 20px 0px;
 }
 
 section.about-section div.about-content div.content-area p.p1 {
@@ -200,11 +201,11 @@ section.about-section div.about-content div.content-area button.btn a {
 }
 
 section.about-section div.about-content div.content-area button.btn {
-    border: 1px solid var(--borders-color);
+    border: 2px solid var(--borders-color);
     border-radius: 5px;
     padding: 18px 40px;
     background-color: transparent;
-    margin-top: 40px;
+    margin-top: 25px;
     transition-duration: 0.5s;
     transition-timing-function: ease;
 }
@@ -254,4 +255,85 @@ section.atmosphere-section div.content ul.qualities li p {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-weight: 500;
+}
+
+/* DISCOVER SECTION */
+
+
+section.discover-section {
+    background-color: var(--primary-color);
+}
+
+section.discover-section div.discover-content {
+   display: flex;
+   gap: 70px;
+   padding-top: 100px;
+   padding-bottom: 80px;
+}
+
+section.discover-section div.discover-content div.image-area img {
+    width: 556px;
+    height: 450px;
+}
+
+section.discover-section div.discover-content div.content-area h3.yellow-heading {
+    color: var(--yellow-heading-color);
+    font-size: 36px;
+    font-family: 'Sacramento', sans-serif;
+    font-weight: 400;
+}
+
+section.discover-section div.discover-content div.content-area h1.main-heading {
+    color: white;
+    font-size: 48px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+section.discover-section div.discover-content div.content-area p.p1 {
+    color: var(--primary-paragraph-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+
+section.discover-section div.discover-content div.content-area ul li {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    list-style: none;
+    line-height: 2.5em;
+}
+
+section.discover-section div.discover-content div.content-area button.btn a {
+    text-decoration: none;
+    color: var(--nav-items-color);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+section.discover-section div.discover-content div.content-area button.btn {
+    border: 2px solid var(--borders-color);
+    border-radius: 5px;
+    padding: 18px 40px;
+    background-color: transparent;
+    margin-top: 25px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+section.discover-section div.discover-content div.content-area button.btn:hover {
+    transform: translateY(-10px);
+}
+
+section.discover-section div.discover-content div.content-area ul li i {
+    color: var(--yellow-heading-color);
+    margin-right: 10px;
 }
