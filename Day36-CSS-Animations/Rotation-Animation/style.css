@@ -1,0 +1,21 @@
+#box {
+    border: solid;
+    width: 250px;
+    height: 250px;
+    font-size: 200px;
+    text-align: center;
+    background: linear-gradient(to left, lightblue, white);
+}
+
+#box:hover{
+    animation: rotation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+@keyframes rotation {
+    100% {
+        transform: rotateZ(360deg);
+    }
+}

@@ -1,0 +1,32 @@
+#box {
+    border: solid;
+    width: 250px;
+    height: 250px;
+    font-size: 200px;
+    text-align: center;
+    background: linear-gradient(to left, lightblue, white);
+}
+
+#box:hover {
+    animation: slider;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/* #box:active {
+    animation: slider;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+} */
+
+@keyframes slider{
+    from{
+        margin-left: 0%;
+    }
+    to{
+        margin-left: 100%;
+    }
+}
+

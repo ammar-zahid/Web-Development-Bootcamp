@@ -1,0 +1,18 @@
+#box {
+    border: solid;
+    width: 250px;
+    height: 250px;
+    font-size: 200px;
+    text-align: center;
+    background: linear-gradient(to left, lightblue, white);
+    animation: opacity;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes opacity {
+    50%{
+        opacity: 0;
+    }
+}
