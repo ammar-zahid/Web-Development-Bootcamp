@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Josefin+Sans:wght@400;700&family=Jost:wght@400;700&family=Roboto:wght@400;700&family=Sacramento&display=swap');
+
+:root {
+    --primary-color: #3b3b3b;
+    --secondary-color: #11191f;
+    --nav-items-color: #ffe8cb;
+    --borders-color: #dba36a;
+    --yellow-heading-color :#dfb57a;
+    --primary-paragraph-color: #aca298;
+    --services-section-color: #f5f1ec;
+    --brands-section-color: #ffe9d1;
+}
