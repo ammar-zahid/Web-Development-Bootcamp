@@ -1,0 +1,22 @@
+/* ul.list-items li:nth-child(3), ul.list-items li:nth-child(7) {
+    color: chartreuse;
+} */
+
+/* ul.list-items li:nth-child(3) {
+    color: chartreuse;
+} */
+
+/* ul.list-items li:nth-child(3n+1) {
+    color: blue;
+} */
+
+/* ul.list-items li:nth-child(odd) {
+    background-color: yellow;
+    display: inline;
+} */
+
+ ul.list-items li:nth-child(even) {
+    background-color: yellow;
+    display: inline;
+}
+
