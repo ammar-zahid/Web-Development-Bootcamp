@@ -28,10 +28,6 @@
 
 /* NAVBAR */
 
-body {
-    background-color: black;
-}
-
 nav.navbar {
     display: flex;
     justify-content: space-between;
@@ -41,6 +37,7 @@ nav.navbar {
     padding-right: 50px;
     padding-left: 50px;
     border-bottom: 0.1px solid whitesmoke;
+    z-index: 10;
 }
 
 nav.navbar img.nav-logo {
@@ -78,7 +75,8 @@ nav.navbar button.btn a {
     text-decoration: none;
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 nav.navbar button.btn {
@@ -90,3 +88,51 @@ nav.navbar button.btn {
 
 /* HERO SECTION */
 
+section.hero-section {
+    height: 95vh;
+    background-image: url(../images/hero-img.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.hero-section div.container {
+    padding-top: 80px;
+}
+
+section.hero-section div.hero-content h3.yellow-heading {
+    font-family: 'Sacramento', sans-serif;
+    font-size: 35px;
+    color: var(--yellow-heading-color);
+}
+
+section.hero-section div.hero-content h1.main-heading {
+    font-family: 'Jost', sans-serif;
+    color: white;
+    font-size: 90px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+
+section.hero-section div.hero-content button.btn a {
+    text-decoration: none;
+    color: var(--nav-items-color);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+section.hero-section div.hero-content button.btn {
+    border: 1px solid var(--borders-color);
+    border-radius: 5px;
+    padding: 18px 40px;
+    background-color: transparent;
+    margin-top: 40px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+section.hero-section div.hero-content button.btn:hover {
+    transform: translateY(-10px);
+}
