@@ -1,0 +1,29 @@
+:root {
+    --primary-color: skyblue;
+    --secondary-color: pink;
+    --box-width: 100px;
+    --box-height: 100px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+#box1 {
+    width: var(--box-width);
+    height: var(--box-height);
+    background-color: var(--primary-color);
+}
+
+#box2 {
+    width: var(--box-width);
+    height: var(--box-height);
+    background-color: var(--secondary-color);
+}
+
+#box3 {
+    width: var(--box-width);
+    height: var(--box-height);
+    background-color: var(--primary-color);
+}
