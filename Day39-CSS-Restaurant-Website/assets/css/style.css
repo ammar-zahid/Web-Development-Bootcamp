@@ -215,3 +215,43 @@ section.about-section div.about-content div.content-area button.btn:hover {
 
 /* ATMOSPHERE SECTION */
 
+section.atmosphere-section {
+    background: var(--secondary-color);
+    padding: 60px 0px;
+}
+
+section.atmosphere-section div.content ul.qualities {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+section.atmosphere-section div.content ul.qualities li img {
+    border-radius: 50%;
+    padding: 30px;
+    background-color: black;
+}
+
+section.atmosphere-section div.content ul.qualities li {
+    text-align: center;
+}
+
+section.atmosphere-section div.content ul.qualities li h1 {
+    color: var(--nav-items-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+section.atmosphere-section div.content ul.qualities li h1#third {
+    margin-top: 47px;
+}
+
+section.atmosphere-section div.content ul.qualities li p {
+    color: var(--nav-items-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
