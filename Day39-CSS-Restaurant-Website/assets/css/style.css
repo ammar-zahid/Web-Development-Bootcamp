@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Josefin+Sans:wght@400;700&family=Jost:wght@400;700&family=Roboto:wght@400;700&family=Sacramento&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
 :root {
     --primary-color: #3b3b3b;
     --secondary-color: #11191f;
@@ -10,3 +17,76 @@
     --services-section-color: #f5f1ec;
     --brands-section-color: #ffe9d1;
 }
+
+/* ASSETS */
+
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding: 20px;
+}
+
+/* NAVBAR */
+
+body {
+    background-color: black;
+}
+
+nav.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    align-items: center;
+    height: 84px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-bottom: 0.1px solid whitesmoke;
+}
+
+nav.navbar img.nav-logo {
+    width: 70%;
+    width: 132px;
+    height: 33px;
+}
+
+nav.navbar ul.nav-items {
+    display: flex;
+    margin-left: 250px;
+}
+
+nav.navbar ul.nav-items li a {
+    text-decoration: none;
+    color: var(--nav-items-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 30px 15px;
+}
+
+nav.navbar ul.nav-items li a.active {
+    border-bottom: 3px solid var(--borders-color);
+}
+
+nav.navbar ul.nav-items li a:hover {
+    border-bottom: 3px solid var(--borders-color);
+}
+
+nav.navbar ul.nav-items li {
+    list-style: none;
+}
+
+nav.navbar button.btn a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+nav.navbar button.btn {
+    border: 1px solid var(--borders-color);
+    border-radius: 5px;
+    padding: 18px 40px;
+    background-color: transparent;
+}
+
+/* HERO SECTION */
+
