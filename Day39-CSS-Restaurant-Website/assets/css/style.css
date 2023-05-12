@@ -8,12 +8,14 @@
 }
 
 :root {
-    --primary-color: #3b3b3b;
+    --nav-color: #3b3b3b;
+    --primary-color: #202020;
     --secondary-color: #11191f;
     --nav-items-color: #ffe8cb;
     --borders-color: #dba36a;
     --yellow-heading-color :#dfb57a;
-    --primary-paragraph-color: #aca298;
+    --primary-paragraph-color: #b4b4b4;
+    --secondary-paragraph-color: #8f8c8a;
     --services-section-color: #f5f1ec;
     --brands-section-color: #ffe9d1;
 }
@@ -31,13 +33,15 @@
 nav.navbar {
     display: flex;
     justify-content: space-between;
-    background-color: var(--primary-color);
+    background-color: var(--nav-color);
     align-items: center;
     height: 84px;
     padding-right: 50px;
     padding-left: 50px;
     border-bottom: 0.1px solid whitesmoke;
     z-index: 10;
+    position: sticky;
+    top: 0px;
 }
 
 nav.navbar img.nav-logo {
@@ -136,3 +140,78 @@ section.hero-section div.hero-content button.btn {
 section.hero-section div.hero-content button.btn:hover {
     transform: translateY(-10px);
 }
+
+/* ABOUT SECTION */
+
+section.about-section {
+    background-color: var(--primary-color);
+}
+
+section.about-section div.about-content {
+   display: flex;
+   gap: 70px;
+   padding-top: 100px;
+   padding-bottom: 80px;
+}
+
+section.about-section div.about-content div.image-area img {
+    width: 550px;
+    height: 366px;
+}
+
+section.about-section div.about-content div.content-area h3.yellow-heading {
+    color: var(--yellow-heading-color);
+    font-size: 36px;
+    font-family: 'Sacramento', sans-serif;
+    font-weight: 400;
+}
+
+section.about-section div.about-content div.content-area h1.main-heading {
+    color: white;
+    font-size: 48px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+section.about-section div.about-content div.content-area p.p1 {
+    color: var(--primary-paragraph-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+
+section.about-section div.about-content div.content-area p.p2 {
+    color: var(--secondary-paragraph-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+
+section.about-section div.about-content div.content-area button.btn a {
+    text-decoration: none;
+    color: var(--nav-items-color);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+section.about-section div.about-content div.content-area button.btn {
+    border: 1px solid var(--borders-color);
+    border-radius: 5px;
+    padding: 18px 40px;
+    background-color: transparent;
+    margin-top: 40px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+section.about-section div.about-content div.content-area button.btn:hover {
+    transform: translateY(-10px);
+}
+
+/* ATMOSPHERE SECTION */
+
