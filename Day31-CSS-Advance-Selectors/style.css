@@ -6,6 +6,18 @@ body {
     font-size: auto;
 }
 
+p::first-letter {
+    font-size: 3rem;
+}
+
+p::first-line {
+    color: red;
+}
+
+::selection {
+    color: green;
+    background-color: black;
+}
 .container ul li {
     color: red;
     background-color: cyan;
