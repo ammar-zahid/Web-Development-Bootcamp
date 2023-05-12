@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-size: 50px;
+    font-size: auto;
 }
 
 .container ul li {
@@ -20,4 +20,28 @@ body {
     color: blue;
 }
 
+input[type = 'text'] {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(60, 85, 108);
+}
+
+/* a[target] {
+    color: purple;
+} */
+
+a[target='_blank'] {
+    color: green;
+}
+
+/* ul.list-items li {
+    color: orangered;
+} */
+
+ul.list-items li:nth-child(3), ul.list-items li:nth-child(7) {
+    color: chartreuse;
+}
 /* other css selectors are not very much used by devleopers */
