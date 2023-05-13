@@ -337,3 +337,42 @@ section.discover-section div.discover-content div.content-area ul li i {
     color: var(--yellow-heading-color);
     margin-right: 10px;
 }
+
+/* SERVICES SECTION */
+
+section.services-section {
+    padding: 50px 0px;
+    background-color: var(--services-section-color);
+}
+
+section.services-section div.services-content ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+section.services-section div.services-content ul li {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+section.services-section div.services-content ul li img {
+    width: 67px;
+    height: 67px;
+}
+
+section.services-section div.services-content ul li p span {
+    font-size: 21px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+section.services-section div.services-content ul li p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #8F8C8A;
+    margin-right: 20px;
+}
