@@ -376,3 +376,25 @@ section.services-section div.services-content ul li p {
     color: #8F8C8A;
     margin-right: 20px;
 }
+
+/* BRAND SECTION */
+
+section.brands-section {
+    padding: 50px 0px;
+    background-color: var(--brands-section-color);
+}
+
+section.brands-section div.brands-content ul {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+
+}
+
+section.brands-section div.brands-content ul li {
+    list-style: none;
+}
+section.brands-section div.brands-content ul li img {
+    width: 145px;
+    height: 34px;
+}
