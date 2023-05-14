@@ -1,0 +1,10 @@
+JavaScript is a cross platform object oriented scripting language.
+
+it is a client side and as well as server side scripting language
+
+it is used to make websites interactive, to add extra and advanced features in it.
+
+JavaScript can change the way how website pages (DOM) looks in browser
+
+Node.js JavaScript on the server can respond to custom requests sent by 
+code executed in the browser.
