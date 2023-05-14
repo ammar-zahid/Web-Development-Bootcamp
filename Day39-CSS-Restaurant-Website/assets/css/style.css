@@ -467,3 +467,91 @@ section.chefs-section div.chefs-content ul li i:hover {
     color: white;
 }
 
+/* FOOTER AREA */
+
+footer {
+    background-color: #3b3b3b;
+    padding: 50px 0px;
+}
+
+footer div.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div.footer-content div.logo-area {
+    margin-right: -30px;
+}
+
+footer div.footer-content div.logo-area a img {
+    width: 230px;
+    height: 57px;
+}
+
+footer div.footer-content div.logo-area p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--nav-items-color);
+    padding: 30px 0px;
+}
+
+footer div.footer-content div.logo-area i {
+    padding: 10px;
+    color: var(--yellow-heading-color);
+    border: 1px solid var(--borders-color);
+    border-radius: 50%;
+    margin: 0px 3px;
+}
+
+footer div.footer-content div.pages-area h1 {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--nav-items-color);
+    padding-bottom: 40px;
+}
+
+footer div.footer-content div.pages-area ul li {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+footer div.footer-content div.pages-area ul li a {
+    text-decoration: none;
+    color: var(--nav-items-color);
+}
+
+footer div.footer-content div.contact-area h1 {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--nav-items-color);
+    padding-bottom: 40px;
+}
+
+footer div.footer-content div.contact-area p {
+    color: var(--nav-items-color);
+    font-size: 16px;
+    padding: 5px 0px;
+}
+
+footer div.footer-content div.gallery-area h1 {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--nav-items-color);
+    padding-bottom: 40px;   
+}
+
+footer div.footer-content div.gallery-area ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+footer div.footer-content div.gallery-area ul li img {
+    width: 55px;
+    height: 36px;
+    border-radius: 5px;
+    margin: 2px 2px;
+}
